@@ -1,8 +1,9 @@
 # rsschool-cv
 ***
 # ARTUR MAKUTONIN
+Location: Belarus / Israel
 
-Telegram:  +375 25 940 00 77
+Telegram: +375 25 940 00 77
 
 Email: makutoninx@gmail.com
 
@@ -14,7 +15,7 @@ Email: makutoninx@gmail.com
  Hi, my name is Arthur and I have started a new chapter in my life called front-end development. My goal is to get a job as a junior frontend developer by 2023.
 ***
 ## Skills:
-Languages: JavaScript , HTML, CSS ;
+Languages: JavaScript, HTML, CSS ;
 IDE: Webstorm, Visual Studio, VS Code ;
 Source Control: Git ;
 OS: MacOS ;
