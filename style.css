@@ -1,3 +1,8 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     text-align: center;
@@ -10,6 +15,26 @@ h1{
     color: #66BFBF;
     
 }
+
+
+#project > a {
+    text-decoration: none;
+}
+.ul-navigation{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
+    
+}
+.ul-navigation > li > a{
+    text-decoration: none;
+}
+
+
+
+
 .top-container{
     background-color: #e4f9f5;
     padding-top: 50px 0px 20px;
@@ -54,7 +79,9 @@ h1{
 
 .top-cloud{
     position: absolute;
-    top: 40px;
+
+    top: 100px;
+
     right: 300px;
 }
 
@@ -153,3 +180,17 @@ p{
     border-radius: 8px;
     text-decoration: none;
  }
+
+.rss-logo{
+    position:absolute;
+    height: 45px;
+    width: 45px;
+    
+}
+.bottom-container > ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-right: 130px;
+}
+

@@ -12,20 +12,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 <body>
+  <header>
+    <nav class="navigation">
+   <ul class="ul-navigation">
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contacts</a></li>
+    <li><a href="#project">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#code">Code snippets</a></li>
+    <li><a href="#edu">Education</a></li>
+   </ul>
+    </nav>
+  </header> 
+  <main>
+    
     <div class="top-container">
         <img class ="top-cloud" src="images/cloud.png" alt="cloud-img">
         <h1>I'm Artur.</h1>
         <h2 class="pro-header">a <span class="pro">pro</span>grammer.</h2>
         <img class ="bottom-cloud" src="images/cloud.png" alt="cloud-img">
         <img src="images/mountain.png" alt="mountain-img">
-    </div>    
+    </div> 
+   
+  
     <div class="middle-container">
+      <section id="about"> 
         <div class="profile">
-          <img  class= "profile-img"src="images/myPhoto.jpeg" alt="profile-img">
+          <img  class= "profile-img" src="images/myPhoto.jpeg" alt="profile-img">
           <h2>Hello.</h2>
           <p class="p-myself ">I am an Web Developer. I ❤️ coffee and has a bachelor degree in production of textile materials.</p>
         </div>
+        </section>
         <hr>
+        <section id="skills">
         <div class="skills">
           <h2>My Skills.</h2>
           <div class="skill-row">
@@ -38,23 +57,68 @@
             <h3>Cascading Style Sheets</h3>
             <p class="skillrow-desc-2">Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
           </div>
+        
         </div>
+      </section>
         <hr>
+       <section id="project">
+         <div>
+         <h2>My project</h2>
+         <a href="https://makutoninx.github.io/QR-code-component-HTML-CSS/">QR Code form(In the pipeline)</a>
+         <p>To Be Continued...</p>
+       </div>
+       </section>
+        <hr>
+        <section id="code">
+          <div>
+            <h2>Code snippet</h2>
+            <pre>
+              <code>
+    function fakeBin(x){
+    let temp = '';
+    for (let i = 0; i &lt; x.length; i++){
+    if(x[i] &lt; '5'){temp += '0'}
+ else if(x[i] >= '5'){temp += '1'}
+ }return temp
+}
+              </code>
+            </pre>
+          </div>
+        </section>
+        <hr>
+        <section id="edu">
+          
+          <h2>Education</h2>
+          <p>2017-2022 - Engineer-Technologist-Manager, VSTU (Belarus)</p>
+          <p>2022-nowadays - Language School (Israel)</p>
+          <h2>Courses</h2>
+          <p>FreeCodeCamp</p>
+          <p>Web BootCamp by AppBrewery (Angela Yu)</p>
+          <p>English level: B1+</p>
+        </section>
+        <hr>
+        <section id="contact">
         <div class="contact-me">
           <h2>Get In Touch</h2>
           <h3>If you have commercial offer feel free to contact me via links placed below.</h3>
           <p class="p-contact">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
           <a class="btn" href="mailto:edumakutonin@gmail.com">CONTACT ME</a>
         </div>
+        
+      </section>
+      <hr>
       </div>
-      
-      
+    </main>
+    <footer>
       <div class="bottom-container">
-        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-        <a class="footer-link" href="https://twitter.com/">Twitter</a>
-        <a class="footer-link" href="#">Website</a>
+        <ul>
+        <li><a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a></li>
+        <li><a class="footer-link" href="https://github.com/MakutoninX">GitHub</a></li>
+        <li><a class="footer-link rss-logo" href="https://rs.school/js/" style="margin-top: 0px; left: 950px;"><img src="https://rs.school/images/rs_school_js.svg" alt="rss-logo"></a></li>
+        <li><a class="footer-link" href="https://discord.com/">Discord</a></li>
+      </ul>
         <p class="initials-bottom">© 2022 Artur Makutonin.</p>
       </div>
-      
+    </footer>  
 </body>
 </html>
