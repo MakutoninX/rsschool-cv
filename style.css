@@ -1,6 +1,8 @@
+
 html{
     scroll-behavior: smooth;
 }
+
 body {
     margin: 0;
     text-align: center;
@@ -13,6 +15,7 @@ h1{
     color: #66BFBF;
     
 }
+
 
 #project > a {
     text-decoration: none;
@@ -28,6 +31,7 @@ h1{
 .ul-navigation > li > a{
     text-decoration: none;
 }
+
 
 
 
@@ -75,7 +79,9 @@ h1{
 
 .top-cloud{
     position: absolute;
+
     top: 100px;
+
     right: 300px;
 }
 
@@ -174,6 +180,7 @@ p{
     border-radius: 8px;
     text-decoration: none;
  }
+
 .rss-logo{
     position:absolute;
     height: 45px;
@@ -186,3 +193,4 @@ p{
     list-style-type: none;
     margin-right: 130px;
 }
+
