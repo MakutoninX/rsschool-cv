@@ -26,6 +26,7 @@ h1{
     list-style-type: none;
     font-family: 'Montserrat', sans-serif;
     padding-top: 30px;
+    padding-left: 0px;
     
 }
 .ul-navigation > li > a{
@@ -193,4 +194,18 @@ p{
     list-style-type: none;
     margin-right: 130px;
 }
+@media (max-width:600px) {
+    .mountain{
+        width: 60%;
+    }
+    .top-cloud{
+        width: 20%;
+        right: 380px;
+    }
+    .bottom-cloud{
+        width: 20%;
+        position: absolute;
+        left: 380px;
+        bottom: 405px;
+    }
 
