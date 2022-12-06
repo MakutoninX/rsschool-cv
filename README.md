@@ -1,1 +1,1 @@
-[# rsschool-cv](https://makutoninx.github.io/rsschool-cv/)
+[CV page link. Click here.](https://makutoninx.github.io/rsschool-cv/)
