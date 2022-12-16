@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+
+}
+body{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(190deg, #8EC5FC 0%, #E0C3FC 100%);
+    height: 900px;
+}
+.a4{
+    
+    margin: 30px auto;
+    background: transparent;
+    box-shadow: rgba(0, 0, 0, 0.24) 4px 3px 9px;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(190deg, #75b7fa 0%, #c28cf5 100%);
+    width: 600px;
+    height: 800px;
+    
+}
+.h1-front{
+    color: #FFED38;
+    font-size: 107px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: -5px;
+    margin-left: 25px;
+    
+}
+.gradient-back{
+    z-index: 1;
+    position: relative;
+    top: -159px;
+    right: -220px;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #099c9e 0%, #FC00FF 100%);
+
+}
+.main-photo{
+    position: relative;
+    z-index: 2;
+    margin-top: 10px;
+    margin-left: 225px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+h2{
+    font-family: 'Caveat', cursive;
+    width: 190px;
+    margin-left: 206px;
+    margin-top: -150px;
+    font-size: 32px;
+}
+.info1{
+    width: 550px;
+    margin-left: 25px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.info2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.info-lang{
+    
+    width: 150px;
+}
+h2{
+    color: #FFED38;
+}
+.text{
+    color: black;
+}
+h3{
+    color: #FFED38;
+    font-family: 'Caveat', cursive;
+    font-size: 24px;
+    text-align: center;
+}
+.flag{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.flag-container-main{
+    display: flex;
+    width: 130px;
+    height: 100px;
+    flex-direction: column;
+    align-items: space-around;
+   
+}
+.flag-container-second{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+p{
+    width: 80px;
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+}
+footer{
+    height: 150px;
+    
+}
+nav{
+    margin-top: 10px;
+    margin-left: 160px;
+}
+main{
+    padding-bottom: 5px;
+}
+.icon-style{
+    width: 25px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+.year{
+    font-size: 20px;
+    margin-top: 5px;
+}
+.contacts-style{
+    margin-top: 10px;
+}
+.ski{
+    margin-left: 50px;
+}
+.code-ex-block{
+    position:absolute;
+    width: 300px;
+    height: 300px;
+    right: 1130px;
+    top: 600px;
+}
+pre{
+    margin-top: 20px;
+}
+.ski:last-child{
+    margin-top: 3px;
+}
